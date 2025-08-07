@@ -241,7 +241,42 @@
         box-shadow: 0 15px 35px rgba(233, 30, 99, 0.3);
     }
 
-    
+    footer {
+        background: #2c3e50;
+        color: white;
+        padding: 3rem 0 1rem;
+        text-align: center;
+    }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minimax(250px, 1fr));
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer-section h3 {
+        margin-bottom: 1rem;
+        color: #e91e63;
+    }
+
+    .footer-section p,
+    .footer-section a {
+        color: #bdc3c7;
+        text-decoration: none;
+        line-height: 1.8;
+    }
+
+    .footer-section a:hover {
+        color: #e91e63;
+        transition: color 0.3s ease;
+    }
+
+    .footer-bottom {
+        border-top: 1px solid #34495e;
+        padding-top: 1rem;
+        margin-top: 2rem;
+    }
 </style>
 
 <body>
@@ -343,6 +378,38 @@
         </div>
     </section>
 
+    <footer id="contacth">
+        <di class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kontak Kami</h3>
+                    <p>📍 Jl. Bunga Indah No. 49<br>
+                        Sidoarjo, Jawa Timur 61234</p>
+                    <p>📞 (031) 123-4567</p>
+                    <p>📱 0812-3456-7890</p>
+                    <p>✉ info@lunora.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Jam Operasional</h3>
+                    <p>Senin - Jumat: 08.00 - 18.00</p>
+                    <p>Sabtu: 08.00 - 16.00</p>
+                    <p>Minggu: 09.00 - 15.00</p>
+                    <p>Hari Libur: Tutup</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Layanan</h3>
+                    <p>• Bouquet & Hand Bouquet</p>
+                    <p>• Dekorasi Pernikahan</p>
+                    <p>• Karangan Bunga Duka</p>
+                    <p>• Bunga Ulang Tahun</p>
+                    <p>• Custom Arrangement</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Lunora Flower Shop.</p>
+            </div>
+            </div>
+    </footer>
 </body>
 
 </html>
